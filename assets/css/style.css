@@ -76,6 +76,19 @@ header{
     border-bottom: 5px solid #b28756;
     color: #ccc;
 }
+.button{
+    display: inline-block;
+    background-color: #b28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
 
 .banner{
     height: calc(100vh - 100px);
@@ -121,20 +134,6 @@ header{
 .banner h2{
     text-transform: uppercase;
     margin-top: 20px;
-}
-
-.banner a{
-    display: block;
-    background-color: #b28756;
-    color: white;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-
 }
 
 .banner .sliders-pointers{
@@ -185,6 +184,53 @@ header{
 .default .section-body{
     max-width: 1140px;
     margin:auto;
-    min-height: 100px;
-    background-color: #ccc;
+}
+
+.default.light{
+    background-color: #f7f7f7;
+}
+.default.light .section-title,
+.default.light .section-body{
+    color: #000;
+}
+
+.default.dark{
+    background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* Css de areas especificas */
+
+.section-aboutus{
+    display: flex;
+}
+
+.section-aboutus--left{
+    flex:1;
+}
+
+.section-aboutus--left p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
