@@ -461,3 +461,90 @@ header{
 .section-team--social a:hover{
     background-color: #b28756;
 }
+
+
+
+
+
+
+
+.section-reviews{
+    overflow: hidden;
+    max-width: 650px;
+    margin: auto;
+}
+
+.section-reviews .sliders{
+    width: 1000vw;
+    height: 100%;
+    font-size: 0;
+}
+
+.section-reviews .slide{
+    width: 650px;
+    height: 100%;
+    
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-reviews .slidearea{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.section-reviews--name{
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.section-reviews--quote{
+    margin-top: 30px;
+}
+
+.section-reviews--role{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section-reviews--quote img{
+    display: block;
+    margin: auto;
+}
+.section-reviews--quote p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    color:#999;
+    line-height: 30px;
+
+}
+
+.section-reviews .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-reviews .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-reviews .pointer.active {
+    background-color: #b28756;
+}
