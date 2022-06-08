@@ -499,7 +499,7 @@ header{
 
 .section-reviews--name{
     margin-top: 20px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 5px;
 }
@@ -509,7 +509,7 @@ header{
 }
 
 .section-reviews--role{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -518,7 +518,7 @@ header{
     margin: auto;
 }
 .section-reviews--quote p{
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 10px;
     text-align: center;
     font-weight: 600;
@@ -547,4 +547,49 @@ header{
 
 .section-reviews .pointer.active {
     background-color: #b28756;
+}
+
+.section-map{
+    background-image: url("../images/mapa.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-map--area{
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info{
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+
+.section-map--info-item{
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.section-map--info-item-img{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.section-map--info-item-img img{
+    width: 15px;
+    height: auto;
 }
